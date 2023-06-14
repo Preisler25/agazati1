@@ -14,8 +14,8 @@ class Csapat:
         return f'{self.hely} {self.csapat} {self.gyozelem} {self.dontetlen} {self.kapott_gol} {self.rugott_gol} {self.pont}'
     
 def feladat0():
-    f = open('bajnoksag.csv', 'r').read().stip().split('\n')
-    for i in range(len(f)-1):
+    f = open('bajnoksag.csv', 'r').read().strip().split('\n')
+    for i in range(len(f)):
         if i != 0:
             f[i] = Csapat(f[i])
     f.pop(0)
@@ -54,11 +54,11 @@ def feladat5(lista):
 def feladat6(lista):
     temp_list = []
     for i in lista:
-        if abs(i.lött_gol-i.kapott_gol) < 15:
+        if abs(i.rugott_gol-i.kapott_gol) < 15:
             temp_list.append(i)
     f = open('adatok.txt', 'w')
     for i in temp_list:
-        f.write(f"{i.csapat} {i.pont}\n")
+        f.write(f"{i.csapat} {abs(i.rugott_gol-i.kapott_gol)}\n")
     f.close()
 
 def main():
