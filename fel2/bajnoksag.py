@@ -68,3 +68,5 @@ def main():
     feladat3(f)
     feladat5(f)
     feladat6(f)
+
+main()
