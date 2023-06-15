@@ -1,0 +1,29 @@
+Feladat:
+Készítsen weblapot a mintának megfelelően!
+A weboldal legyen reszponzív, bootstrap használatával. A bootstrap CDN link segítségével legyen hozzákapcsolva.
+Állítsa be a magyar nyelvet!
+A Böngésző címsorában jelenjen meg: Örkény István
+A css fájl a bootstrap linkje után legyen kapcsolva a HTML-hez.
+A fejlécben ez legyen 1-es szintű címsorral, középre igazítottan:
+Örkény István (1912-1979)
+Két érdekes novellája
+
+A második sora legyen dőlt.
+A fejléc 150 pixel magas legyen, és legyen a fej.jpg a háttérképe, középre igazítottan.
+
+A két novella két egyenlő szélességű hasábban jelenjen meg.
+A bekezdések sorkizártak legyenek.
+A baloldali hasábban a "Sokszor a legbonyolultabb.. " című novellát kell elhelyezni. A jobboldaliban "Az utolsó meggymag" címűt. A novellák címei 2-es címsorúak és zöld színűek legyenek. A jobboldali hasáb végén kell elhelyezni a képet.
+A kép szélessége nem lehet nagyobb 450 pixelnél.
+A kép után felsorolásban kell kialakítani az Örkény István házasságainak felsorolását.
+
+- 1937–41 Gönczi Flóra
+- 1948–59 F. Nagy Angéla gasztronómus-író.
+  Ebből a házasságából két gyermeke született:
+  1949-ben Örkény Angéla, televíziós vágó,
+  1954-ben Örkény Antal, szociológus.
+- 1965-től haláláig Radnóti Zsuzsa
+
+A "Házasságai" felirat 3-as címsor.
+Legyen egy új sorban a fejléccel azonos szélességű, magasságú és háttérképű lábléc
+A láblécben középen legyen 2-es címsorral egy link, amely Örkény István Wikipédiás lapját nyitja meg új lapon.
