@@ -10,6 +10,7 @@ def feladat1():
     else:
         print("nem nyereséges")
 
+
 def feladat2():
     f = open('elemek.txt', 'r').read().split('\n')
     print(len(f))
